@@ -1,1 +1,22 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body div > div {
+  display: flex;
+  flex-direction: row;
+}
+body div figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body div figure img {
+  height: 10em;
+}/*# sourceMappingURL=style.css.map */
